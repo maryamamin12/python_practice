@@ -74,3 +74,114 @@ print(a)
 
 a : str = id(names)      #  return function
 print(a)
+
+
+# list Methods
+#  * 'pop'
+#  * 'append'
+#  * 'insert'
+#  * 'clear'
+#  * 'copy'
+#  * 'count'
+#  * 'append'
+#  * 'reverse'
+#  * 'sort'
+
+
+#  Pop Methods
+#                     0           1      2      3    4
+names : list[any] = ["Maryam", "Ali", "Qasim", 20, True]
+#                     -5         -4      -3    -2   -1
+print(names)
+a: str = names.pop()  # pop  return method
+
+print(a)
+
+#  Append Method
+
+names : list[str] = [ 'a' ,'b']
+names.append("Maryam") # append method add elements in last
+names.append("Bilal")  # append method add elements in last
+names.append("Sir Zia") # append method add elements in last
+
+# Insert Method
+
+names : list[str] = ['a','b', 'c', 'd']
+print(names)
+names.insert(1, "Maryam") # insert on porticular condition
+
+print(names)
+
+# Clear Method
+a: list[int] = [1,2,3]
+
+a.clear()  # remove all elements but object ramin
+print(a)
+
+# Cop Method
+a : list[str] = ['a', 'b', 'c', 'f']
+b = a  # shallow copy
+print(a)
+print(b)
+
+b[0] = 'pakistan'  # change only b variable but both variables updated
+print(a)
+print(b)
+
+
+a : list[str] = ['a', 'b', 'c', 'f']
+b = a.copy() # Deep copy
+print(a)
+print(b)
+
+b[0] = 'pakistan'  # change only b variable but both variables updated
+print(a)
+print(b)
+
+# Count Method
+names: list[str] = ['1', '1', '1', '2', '4', '4', '2']
+print(names.count("3"))
+print(names.count("2"))
+
+# append Method
+names: list[str] = ["Maryam", "Ali", "Rimsha"]
+new_faculty_members : list[str] = ['sir zia', 'sir inam']
+names.append(new_faculty_members)
+print(names)
+
+# extend Method
+
+names: list[str] = ["Maryam", "Ali", "Rimsha"]
+new_faculty_members : list[str] = ['sir zia', 'sir inam']
+names.extend(new_faculty_members)
+print(names)
+
+# remove method
+
+names:list[str] = ['Maryam', 'Ali', 'Rimsha', 'sir zia', 'sir inam']
+names.remove("sir zia")
+print(names)
+
+# index method
+#                       0        1       2          3          4
+names : list[str] = ['Maryam', 'Ali', 'Rimsha', 'sir zia', 'sir inam']
+print(names.index("sir zia"))
+
+# reverse method
+
+names:list[str] = ['Maryam', 'Ali', 'Rimsha', 'sir zia', 'sir inam']
+print(names)
+names.reverse() # in_memory = change real data
+print(names)
+
+# sort method
+
+names : list[str] = list("ABCDEF")
+print(names)
+names.sort()
+print(names)
+
+names : list[str] = list("ABCDEF")
+print(names)
+names.sort(reverse = True)
+print(names)
