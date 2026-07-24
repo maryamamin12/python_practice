@@ -7,3 +7,4 @@ print(4)
 print("\n hello world " *100)
 
 print ("\n hello maryam" *2)
+print("Bye")
