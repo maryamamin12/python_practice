@@ -13,7 +13,7 @@ print("product:", product)
 
 #More examples of integers
 postive_num = 100
-negative_num =45
+negative_num = 45
 zero = 0
 print("postive_num:", postive_num)
 print("negative_num:", negative_num)
