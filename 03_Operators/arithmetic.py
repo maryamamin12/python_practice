@@ -64,6 +64,7 @@ print("Modulus:", result)
 a = 2
 b = 4
 print(a ** b)
+print(2 ** 3)
 
 num1 = 4
 num2 = 6
