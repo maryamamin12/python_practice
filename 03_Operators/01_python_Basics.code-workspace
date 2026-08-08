@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../01_python_Basics"
+		},
+		{
+			"path": "../02_Data_types"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
