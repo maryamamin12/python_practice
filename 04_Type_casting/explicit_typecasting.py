@@ -1,4 +1,5 @@
 #Explicit typecasting means that the programmer manually converts one data type into another
+string = "15"
 number = 7
 string_number = int(string) # converting string to integer
 sum = number + string_number
