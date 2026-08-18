@@ -21,3 +21,26 @@ print("country:", country)
 print("The type of first_name is:", type(first_name))
 print("The type of last_name is:", type(last_name))
 print("The type of country is:", type(country))
+
+#using triple sinle quotes to define a string...
+message = '''I am Maryam Amin.
+I am a student of BSIT.
+I am learning python programming language and
+i want to become a python developer.'''
+print(message)
+
+
+#checking the indexing number of strings....
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+
+#Looping through a string...
+for character in name:
+    print(character)
+for character in message:
+    print(character)
+    
+
+
