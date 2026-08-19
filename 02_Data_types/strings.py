@@ -13,6 +13,9 @@ first_name = "Maryam"
 last_name = "Amin"
 country = "Pakistan"
 
+for character in country:
+    print(character)
+
 print("first_name:", first_name)
 print("last_name:", last_name)
 print("country:", country)
@@ -29,6 +32,8 @@ I am learning python programming language and
 i want to become a python developer.'''
 print(message)
 
+for character in message:
+    print(character)
 
 #checking the indexing number of strings....
 print(name[0])
@@ -39,8 +44,7 @@ print(name[3])
 #Looping through a string...
 for character in name:
     print(character)
-for character in message:
-    print(character)
+
     
 
 
